@@ -1,0 +1,79 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Jorge Leonardo Espinosa Tovar</title>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Perfil profesional desarrollo de software"/>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Spinnaker' rel='stylesheet' type='text/css'>
+		<link rel="author" type="text/plane" href="{% static 'humans.txt'%}"/>
+		<link rel="stylesheet" href="{% static 'css/estilos.css'%}">
+		
+	</head>
+	<body>
+		<header>
+			<h2>{{leonar.nombre_completo}}</h2>
+		</header>
+		<section id="contenido">
+			<section id="principal">
+				<article>
+					<img src="{% static 'img/perfil.jpg'%}" atl="foto de perfil" />
+				</article>
+			</section>
+			<aside>
+				<hgroup>
+					<h1 class="caracteristica">{{leonar.descripcion_corta}}</h1>
+					<h2 class="descripcion"> <span>{{leonar.descripcion}}</span></h2>
+				</hgroup>
+			</aside>
+		</section>
+		
+		<!--img src="img/fondo.jpg" />-->
+		
+		<section class="important" id="important1">
+			<section class="work">
+				<img src="{% static 'img/java.png'%}"/>
+				<br/><br>
+				<hgroup> <h2 class="descripcion"><a>JAVA</a></h2></hgroup>
+			</section>
+			<section class="work">
+				<img src="{% static 'img/JavaScript.png'%}"/><br></br>
+				<hgroup> <h2 class="descripcion"><a>JAVASCRIPT</a></h2></hgroup>
+			</section>
+			<section class="work">
+				<img src="{% static 'img/html.png'%}"/><br> </br>
+				<hgroup> <h2 class="descripcion"><a>HTML</a></h2></hgroup>
+			</section>
+			<section class="work">
+				<img src="{% static 'img/nodejs.png'%}"/> <br></br>
+				<hgroup> <h2 class="descripcion"><a>NODEJS</a></h2></hgroup>
+			</section>
+			<section class="work">
+				<img src="{% static 'img/perseverancia.png'%}"//><br></br>
+				<hgroup> <h2 class="descripcion"><a>PERSEVERANTE</a></h2></hgroup>
+			</section>
+			<section class="work">
+				<img src="{% static 'img/trabajo_equipo.png'%}"//><br></br>
+				<hgroup> <h2 class="descripcion"><a>TRABAJO EN EQUIPO</a></h2></hgroup>
+			</section>
+			<section class="work">
+				<img src="{% static 'img/responsable.png'%}"/><br></br>
+				<hgroup> <h2 class="descripcion"><a>RESPONSABLE</a></h2></hgroup>
+			</section>
+		</section>
+		<section id="important3">
+		<form class="formulario_contacto">
+				<ul>
+					<li><label>Celular:</label>{{leonar.numero_celular}}</li>
+					<li><label>Correo:</label>{{leonar.correo}}</li>
+					<li><label>Edad:</label>{{leonar.edad}}</li>
+					
+				</ul>
+		</form>
+		</section>
+		
+		<footer>Derechos reservados Jorge Leonardo Espinosa</footer>
+	</body>
+</html>

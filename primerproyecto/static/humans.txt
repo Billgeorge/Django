@@ -1,0 +1,20 @@
+/* Profesional de desarrollo de software| Ingeniero Electrónico*/
+/* TEAM */
+	Creator: Jorge Leonard Espinosa Tovar
+	Contact: jorjek4 [at] hotmail.com
+	
+/* IN MEMORIAL */
+
+/* THANKS */
+	Aura María Herrera Espinosa
+	Mathias Alonso Espinosa
+	María Camila Gutierrez
+	Juan Alonso Espinosa
+	Clara Ines Tovar
+	Universidad Distrital Francisco Jose de Caldas
+
+/* SITE */
+	Last update: 2016/01/14
+	Language: Español
+	Standars: HTML5,CSS3, JavaScript,django
+	IDE:Notepad++

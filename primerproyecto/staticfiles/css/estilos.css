@@ -1,0 +1,225 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+article,figcaption,figure,footer,header,hgroup,nav,section{
+	display: block;
+}
+
+body{
+	background: #FFF;
+	color: #212121;
+	font-family: "Chalet", Helvetica, Verdana;
+	font-size: 1em;
+}
+
+a{
+	color: #9932CC;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #212121;
+}
+
+img{
+	height:30%;
+	width:30%;
+}
+
+header,section#contenido,footer{
+	background: #FFF;
+	margin: 0 auto;
+	max-width: 95%;
+	text-align: center;
+}
+section#contenido{
+	box-sizing: border-box;
+	border-bottom: 0.1em solid #DCDCDC;
+}
+header{
+	font-family: 'Open Sans', sans-serif;
+	/*border-bottom: 0.2em solid #101010;*/
+}
+
+header h1, nav{
+	display: inline-block;
+	max-width: 100%;
+	vertical-align: middle;
+
+}
+
+nav  ul{
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	padding: 0.1em;
+	vertical-align: top;
+}
+
+nav a{
+	background: #3CB371;
+	border-radius: 0.2em;
+	color: #fff;
+	display: block;
+	font-size: 0.7em;
+	padding: 1em;
+}
+nav a:hover{
+	color: #212121;
+}
+
+section#principal , aside{
+	background: #fff;
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 100%;
+	max-height: 100%;
+	padding: 0.25em;
+	vertical-align: middle;
+	width: 47%;
+}
+
+aside{	
+		vertical-align:middle;
+		width:48%;
+}
+
+section#image{
+	width:100%;
+	position:relative;
+	margin: 0 auto;
+	max-width: 100%
+}
+
+section#important1{
+	background: linear-gradient(to right, #5CBCE9 0px, #AFEEEE 100%) repeat scroll 0% 0% transparent;
+}
+
+
+section#important1 h2{
+	color:#000;
+	font-weight:700;
+	font-size:1em;
+}
+
+section.important a{
+	background: none repeat scroll 0% 0% #F16522;
+	border: 2px solid #F16522;
+	border-radius:4px;
+	color: #FFF;
+	font-size:1em;
+	padding: 13px 20px 11px;
+}
+
+section#important3{
+	background: url(../img/empresario.png) no-repeat scroll center center / cover transparent;
+	background-size: cover;
+	height:550px;
+	transform-style: preserve-3d;
+	
+}
+.formulario_contacto {
+	background:none repeat scroll 0% 0% rgba(255, 255, 255, 0.9);
+	position:absolute;
+	margin: 15% 35%;
+	padding: 35px 40px 40px;
+	width:30%;
+	}
+	
+.formulario_contacto ul{ 
+list-style:none;
+}
+
+.formulario_contacto li { 
+border-bottom: 1px solid #eee;
+padding: 12px; 
+position: relative; 
+}
+.formulario_contacto label { 
+width: 150px; 
+margin-top: 3px; 
+display: inline-block; 
+float: left; 
+padding: 3px; 
+} 
+
+
+.input{
+	border:1px solid #DDD;
+	background: #fff;
+	font-family: 'Spinnaker', sans-serif;
+	padding: 10px 12px;
+	width:80%;
+}
+.caracteristica{
+	color: #20B2AA;
+	font-size: 2em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	padding: 1em 0;
+}
+.work{
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 100%;
+	max-height: 100%;
+	padding: 1em;
+	vertical-align: middle;
+	width: 22%;
+}
+
+.work h2{
+	color:#000;
+	font-weight:bold;
+	text-align:center;
+}
+
+.descripcion{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	margin: 0 auto;
+	text-align: left;
+	width: 75%
+}
+.important{
+	background: linear-gradient(to right, #5CBCE9 0px, #695999 100%) repeat scroll 0% 0% transparent;
+	box-sizing: border-box;
+	border-bottom: 0.2em solid #57ABB8;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 3em;
+	text-align:center;
+}
+
+.important h1{
+	font-size: 2.4em;
+	padding-top: 2em;
+	color: #fff;
+	font-weight: bold;
+}
+.important h2{
+	font-size:1.4em;
+	font-weight: 300;
+	color: #fff;
+}
+
+@media(min-width:1081px){
+	header h1{
+		text-align: left;
+		width: 35%;
+	}
+	nav{
+		text-align: right;
+		width:60%;
+	
+	}
+
+}
+
+

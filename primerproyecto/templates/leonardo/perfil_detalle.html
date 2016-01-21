@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>Detalle Perfil</title>
+	</head>
+	<body>
+		<h2>{{leonar.nombre_completo}}</h2>
+		<p><b>Publicado:</b>{{leonar.numero_celular}}</p>
+		<p>
+		{% if leonar.descripcion %}
+			{{leonar.descripcion}}
+		{% else %}
+		No se ha incluido descripcion
+		{% endif %}
+		</p>
+		<p>{{leonar.edad}}</p>
+		
+	</body>
+</html>
